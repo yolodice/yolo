@@ -29,7 +29,7 @@ define([
             self.setErrorState('We unfortunately don\'t support your browser');
 
         /** Constants **/
-        self.HOUSE_EDGE = 2;
+        self.HOUSE_EDGE = 1.99;
 
         /** Initial State **/
 
@@ -406,5 +406,3 @@ define([
 
     return new GameEngine();
 });
-
-
