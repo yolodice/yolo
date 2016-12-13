@@ -94,7 +94,7 @@ define([
                         type: 'button',
                         className: 'btn btn-default top-bar-menu-btn hidden-xs',
                         onClick: function(){
-                            var windowUrl = 'https://www.moneypot.com/dialog/deposit?app_id=1';
+                            var windowUrl = 'https://www.moneypot.com/dialog/deposit?app_id=2529';
                             var windowName = 'manage-auth';
                             var windowOpts = 'width=420,height=350,left=100,top=100';
                             var windowRef = window.open(windowUrl, windowName, windowOpts);
@@ -106,7 +106,7 @@ define([
                         type: 'button',
                         className: 'btn btn-default top-bar-menu-btn hidden-xs',
                         onClick: function(){
-                            var windowUrl = 'https://www.moneypot.com/dialog/withdraw?app_id=1';
+                            var windowUrl = 'https://www.moneypot.com/dialog/withdraw?app_id=2529';
                             var windowName = 'manage-auth';
                             var windowOpts = 'width=420,height=350,left=100,top=100';
                             var windowRef = window.open(windowUrl, windowName, windowOpts);

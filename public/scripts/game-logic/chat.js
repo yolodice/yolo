@@ -72,7 +72,7 @@ define([
         var self = this;
 
         var authPayload = {
-            app_id: 1,
+            app_id: 2529,
             access_token: self.accessToken,
             subscriptions: ['CHAT', 'DEPOSITS', 'BETS']
         };
@@ -137,7 +137,7 @@ define([
                     }
                 }
             };
-            xhttp.open("GET", "https://api.moneypot.com/v1/list-bets?app_id=1&access_token="+authPayload.access_token, true);
+            xhttp.open("GET", "https://api.moneypot.com/v1/list-bets?app_id=2529&access_token="+authPayload.access_token, true);
             xhttp.setRequestHeader("Content-type", "application/json");
             xhttp.send();
         });
