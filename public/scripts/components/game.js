@@ -141,7 +141,7 @@ define([
                     D.br(),
                     D.span(null, (typeof Engine.error == 'string')? Engine.error : 'There was a fatal error'),
                     D.br(),
-                    D.a({ href: PRODUCTION? 'https://dustdice.com' : 'http://localhost:3001' }, 'Go to DustDice.com')
+                    D.a({ href: PRODUCTION? 'https://yolodice.github.io/yolo' : 'http://localhost:3001' }, 'Go to yolodice.github.io/yolo')
                 );
 
             //Waiting for the user data (loading)
