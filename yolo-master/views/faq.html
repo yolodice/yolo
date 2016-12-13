@@ -1,0 +1,43 @@
+{% extends 'master.html' %}
+
+{% block content %}
+<div class="row faq">
+    <div class="col-xs-12">
+        <h4>I'm confused, how does the game work?</h4>
+        <p>The game generates a number between 0 and 100, and allows you to bet on what you think the result will be.</p>
+        <p>Your probability of winning, and payout for guessing correctly is proportional to how specific the range
+        you bet. The payout of guessing correctly is such that the house edge would be 1% or less.</p>
+        <p>Sometimes the house edge is less than one percent because the payout is rounded to two decimal places,
+            the server accepts that bet and adjusts the house edge to match it. This is in order to give our users the best user interface and game experience possible.</p>
+        <br/>
+        <h4>I deposited, but my balance still shows 0?</h4>
+        <p>At this point in time, deposits need 1 confirmation on the Bitcoin network to be added to your account. Upon 1 confirmation, your balance will automatically reflect the change in your balance.</p>
+        <br/>
+        <h4>What is MoneyPot?</h4>
+        <p>MoneyPot is an app that uses MoneyPot for all gambling services. This means your balance and bets live there.
+          It is not much more than a UI that places and verifies the bets for you. It has no access to your money, and it can only
+          bet what you authorize it to bet.
+        </p>
+
+        <br/>
+        <h4>Can I invest?</h4>
+        <p>
+            Of course, we accept investment through <a href="https://moneypot.com">MoneyPot's</a> investment program and bitcoin wallet.
+            All bets are placed against MoneyPot's bankroll. This allows any casino to immediately place bettings against it.
+            Go to <a href="https://moneypot.com">MoneyPot</a> and start investing in the best investment you can make.
+        </p>
+    </div>
+
+</div> <!-- /faq -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-70091873-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+{% endblock %}

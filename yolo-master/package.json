@@ -1,0 +1,35 @@
+{
+  "name": "DustDice",
+  "version": "1.0.0",
+  "description": "DustDice Site",
+  "scripts": {
+    "postinstall": "gulp install",
+    "start": "node --harmony src/server.js",
+    "start-dev": "env $(cat .env | xargs) nodemon --harmony src/server.js"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "dependencies": {
+    "del": "^1.1.1",
+    "event-stream": "^3.3.0",
+    "gulp": "^3.8.11",
+    "gulp-extend": "^0.2.0",
+    "gulp-hash": "^2.0.3",
+    "gulp-minify-css": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.3",
+    "koa": "^0.18.1",
+    "koa-compress": "^1.0.8",
+    "koa-router": "^4.2.0",
+    "koa-static": "^1.4.9",
+    "koa-swig": "^2.0.0",
+    "merge-stream": "^0.1.7",
+    "requirejs": "^2.1.17",
+    "run-sequence": "^1.1.0",
+    "vinyl-paths": "^1.0.0"
+  },
+  "private": true,
+  "main": "src/server.js",
+  "devDependencies": {}
+}

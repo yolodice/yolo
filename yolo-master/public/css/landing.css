@@ -1,0 +1,184 @@
+@import url('bootstrap.css');
+
+
+#landing-background {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+
+/* Space out content a bit */
+#landing-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#landing-container .nav-pills>li.active>a, #landing-container .nav-pills>li.active>a:hover, #landing-container .nav-pills>li.active>a:focus {
+    color: #fff;
+    background-color: #2C3E50;
+}
+
+#landing-container nav a {
+    color: #2C3E50;
+}
+
+#landing-container .nav>li>a:hover, #landing-container .nav>li>a:focus {
+background-color: rgba(44, 62, 80, 0.3);
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+#landing-container .header,
+#landing-container .marketing,
+#landing-container .footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Custom page header */
+#landing-container .header {
+    border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+#landing-container .header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #2C3E50;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.logo-container {
+    padding-bottom: 19px;
+}
+
+.logo-container img {
+    width: 24px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+/* Custom page footer */
+#landing-container .footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+    #landing-container.container {
+        background-color: #fff;
+        color: #2C3E50;
+}
+}
+#landing-container .container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+#landing-container .jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #ECF0F1;
+}
+#landing-container .jumbotron .btn {
+    padding: 14px 24px;
+    font-size: 21px;
+    background-color: #16A085;
+}
+
+/* Supporting marketing content */
+#landing-container .marketing {
+    margin: 40px 0;
+}
+#landing-container .marketing p + h4 {
+    margin-top: 28px;
+}
+
+
+/* ==========================================================================
+    Carousel (Slider)
+    ========================================================================== */
+
+#landing-carousel .carousel-caption {
+    top: 20px;
+}
+
+#landing-carousel .btn-register-container {
+    position: absolute;
+    bottom: 40px;
+    right: 0;
+    left: 0;
+    text-align: center;
+}
+
+#landing-carousel .carousel-subtitle {
+    font-size: 1.3em;
+}
+
+#landing-carousel .carousel-subtitle a {
+    color: #5cb85c;
+}
+
+#landing-carousel .btn-register {
+    font-size: 1.5em;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 480px) {
+    #landing-carousel .carousel-caption {
+        top: 1em;
+        padding-top: 0;
+    }
+
+    #landing-carousel .carousel-caption h1{
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+
+    #landing-carousel .btn-register-container {
+        bottom: 2em;
+    }
+
+    #landing-carousel .carousel-subtitle {
+        font-size: 1em;
+    }
+
+    #landing-carousel .carousel-subtitle a {
+    }
+
+    #landing-carousel .btn-register {
+        padding: .3em 1em;
+        font-size: 1em;
+    }
+}
+
+/* ==========================================================================
+    Media queries
+    ========================================================================== */
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
